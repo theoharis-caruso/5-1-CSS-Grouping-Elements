@@ -4,17 +4,48 @@
         <meta charset="utf-8">
         <title>Challenge: Group the groupers</title>
         <style>
-            
+        .first-sentence {
+            font-style: italic;
+        }
+        .info {
+            background-color: rgb(127, 229, 255);
+        }
+    .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
         </style>
     </head>
     <body>
     
         <h1>Groupers</h1>
-        
-        <p>Groupers are teleosts (ray-finned fishes), typically having a stout body and a large mouth. They can be quite large, and lengths over a meter and weights up to 100 kg are not uncommon, though obviously in such a large group, species vary considerably. They swallow prey rather than biting pieces off it. They do not have many teeth on the edges of their jaws, but they have heavy crushing tooth plates inside the pharynx. They habitually eat fish, octopuses, and crustaceans. Reports of fatal attacks on humans by the largest species, the giant grouper (Epinephelus lanceolatus) are unconfirmed.</p>
+        <div class="card">
+         <img src="https://www.aquariumofpacific.org/images/made_new/images-uploads-19_Queensland_Grouper_-_Robin_Riggs_600_q85.jpg" alt="fish" style="width:100%">
+          <div class="container">
+         <h4><b>Grouper</b></h4> 
+         <p>A very cool fish</p> 
+         </div>
+        </div>
 
-        <p>Their mouths and gills form a powerful sucking system that sucks their prey in from a distance. They also use their mouths to dig into sand to form their shelters under big rocks, jetting it out through their gills. Their gill muscles are so powerful, it is nearly impossible to pull them out of a cave if they feel attacked and extend those muscles to lock themselves in.</p>
-        
+        <div class="info">
+        <p><span class="first-sentence">Groupers are teleosts (ray-finned fishes), typically having a stout body and a large mouth.</span> They can be quite large, and lengths over a meter and weights up to 100 kg are not uncommon, though obviously in such a large group, species vary considerably. They swallow prey rather than biting pieces off it. They do not have many teeth on the edges of their jaws, but they have heavy crushing tooth plates inside the pharynx. They habitually eat fish, octopuses, and crustaceans. Reports of fatal attacks on humans by the largest species, the giant grouper (Epinephelus lanceolatus) are unconfirmed.</p>
+
+        <p><span class="first-sentence">Their mouths and gills form a powerful sucking system that sucks their prey in from a distance.</span> They also use their mouths to dig into sand to form their shelters under big rocks, jetting it out through their gills. Their gill muscles are so powerful, it is nearly impossible to pull them out of a cave if they feel attacked and extend those muscles to lock themselves in.</p>
+        </div>
         <a href="http://en.wikipedia.org/wiki/Grouper">Read more on Wikipedia</a>
 
     </body>
